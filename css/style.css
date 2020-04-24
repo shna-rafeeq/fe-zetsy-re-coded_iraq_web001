@@ -4,17 +4,61 @@
 
 /*////////// Global Styles //////////*/
 
+*{
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
 body {
-	background: #F3EBE9;
+	background: #f3ebe9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .wrapper {
-	width: 960px;
+	width: 70% !important;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	margin-top: -20px;
 }
 
 /* Write all remaining styles here */
+
+#zesty{
+  color: #a2b0ab;
+  
+}
+
+#necklace{
+  border: 5px solid #a2b0ab;
+  width: 85%;
+}
+#press{
+  text-align: center;
+ 
+}
+
+#press2{
+  color: #a2b0ab; 
+}
+
+#about{
+  color: #a2b0ab; 
+}
+  
+
+
+#press h2{
+  text-align: left;
+}
+#press img{
+  border: 5px solid #a2b0ab;
+}
+#press img:hover{
+  border: 5px solid #717f7a;
+}
+footer{
+  text-align: right;
+}
